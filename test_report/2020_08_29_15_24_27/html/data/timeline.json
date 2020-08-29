@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-HB9AEN1",
+    "children" : [ {
+      "name" : "5732-MainThread",
+      "children" : [ {
+        "name" : "登录--10001",
+        "uid" : "77f42b0a552836a9",
+        "parentUid" : "82eb9638da1f13ae544d848dddbf2040",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598685872898,
+          "stop" : 1598685879183,
+          "duration" : 6285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'aaa123...'", "'18850107246'" ]
+      }, {
+        "name" : "考核--10002",
+        "uid" : "4815df9030bcc88",
+        "parentUid" : "82eb9638da1f13ae544d848dddbf2040",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598685879188,
+          "stop" : 1598685884487,
+          "duration" : 5299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82eb9638da1f13ae544d848dddbf2040"
+    } ],
+    "uid" : "a95e2472fb4f63605bea690702a38acb"
+  } ]
+}

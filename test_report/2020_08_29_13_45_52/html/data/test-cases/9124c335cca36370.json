@@ -1,0 +1,141 @@
+{
+  "uid" : "9124c335cca36370",
+  "name" : "登录",
+  "fullName" : "test_dir.test_sel_course.TestSelCourse#test_login_success",
+  "historyId" : "56551d76a6e5a6e6b080a60625aa14ff",
+  "time" : {
+    "start" : 1598679958624,
+    "stop" : 1598679964859,
+    "duration" : 6235
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser_close",
+    "time" : {
+      "start" : 1598679958620,
+      "stop" : 1598679958621,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1598679958621,
+      "stop" : 1598679958621,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1598679953240,
+      "stop" : 1598679958620,
+      "duration" : 5380
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ff034873640b06aa",
+      "name" : "log",
+      "source" : "ff034873640b06aa.txt",
+      "type" : "text/plain",
+      "size" : 226
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser_close::0",
+    "time" : {
+      "start" : 1598679970453,
+      "stop" : 1598679972580,
+      "duration" : 2127
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录--10001"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_dir"
+  }, {
+    "name" : "suite",
+    "value" : "test_sel_course"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSelCourse"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HB9AEN1"
+  }, {
+    "name" : "thread",
+    "value" : "10916-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_dir.test_sel_course"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "'aaa123...'"
+  }, {
+    "name" : "username",
+    "value" : "'18850107246'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9124c335cca36370.json",
+  "parameterValues" : [ "'aaa123...'", "'18850107246'" ]
+}

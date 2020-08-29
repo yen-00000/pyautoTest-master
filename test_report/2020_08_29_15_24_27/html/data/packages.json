@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_dir.test_sel_course",
+    "children" : [ {
+      "name" : "登录--10001",
+      "uid" : "77f42b0a552836a9",
+      "parentUid" : "997ae31b954f3a9f858802b7ec5e29fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598685872898,
+        "stop" : 1598685879183,
+        "duration" : 6285
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'aaa123...'", "'18850107246'" ]
+    }, {
+      "name" : "考核--10002",
+      "uid" : "4815df9030bcc88",
+      "parentUid" : "997ae31b954f3a9f858802b7ec5e29fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598685879188,
+        "stop" : 1598685884487,
+        "duration" : 5299
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test_dir.test_sel_course"
+  } ]
+}

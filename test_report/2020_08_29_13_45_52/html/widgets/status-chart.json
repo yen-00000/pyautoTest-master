@@ -1,0 +1,21 @@
+[ {
+  "uid" : "ce448a12d854a243",
+  "name" : "考核",
+  "time" : {
+    "start" : 1598679964931,
+    "stop" : 1598679969971,
+    "duration" : 5040
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9124c335cca36370",
+  "name" : "登录",
+  "time" : {
+    "start" : 1598679958624,
+    "stop" : 1598679964859,
+    "duration" : 6235
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

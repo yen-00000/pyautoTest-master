@@ -1,0 +1,3 @@
+INFO     poium.page_objects:page_objects.py:374 send_keys element: 用户名
+INFO     poium.page_objects:page_objects.py:374 send_keys element: 密码
+INFO     poium.page_objects:page_objects.py:380 click element: 登录按钮
