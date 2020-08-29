@@ -11,7 +11,6 @@ class RunConfig:
     driver_type = "chrome"
 
     # 配置运行的 URL
-    # url = "https://www.baidu.com"
     url = "http://47.115.125.217:8000/pxf/#/login"
 
     # 失败重跑次数

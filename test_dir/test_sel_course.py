@@ -13,8 +13,12 @@ from page.test_home import HomePage
 from page.test_login import LoginPage
 
 class TestSelCourse:
+       @allure.feature("Yen课程考核")
        @allure.story("登录")
        @allure.title("登录--10001")
+       @allure.step("1.输入用户名 2.输入密码 3.点击登录")
+       @allure.description("培训管理系统登录")
+       @allure.link("http://47.115.125.217:8000/pxf/#/login","培训管理系统")
        @pytest.mark.parametrize(
            "username, password",[("18850107246", "aaa123...")]
        )
@@ -28,8 +32,11 @@ class TestSelCourse:
            normal_welcome = "欢迎您，"+username
            assert page.welcome_text.text == normal_welcome
 
+
+       @allure.feature("培训管理系统")
        @allure.story("考核")
        @allure.title("考核--10002")
+       @allure.step("2.通过考核")
        def test_selcourse_success(self,browser):
            homepage = HomePage(browser)
            homepage.course_button.click()
