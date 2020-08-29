@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Sat Aug 29 13:46:04 CST 2020","Sat Aug 29 13:46:09 CST 2020","5040","test_dir","test_sel_course","TestSelCourse","","","考核",""
-"passed","Sat Aug 29 13:45:58 CST 2020","Sat Aug 29 13:46:04 CST 2020","6235","test_dir","test_sel_course","TestSelCourse","","","登录",""

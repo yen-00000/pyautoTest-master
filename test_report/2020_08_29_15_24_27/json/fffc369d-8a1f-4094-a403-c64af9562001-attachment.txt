@@ -1,4 +1,0 @@
-INFO     poium.page_objects:page_objects.py:380 click element: 课程
-INFO     poium.page_objects:page_objects.py:380 click element: 开始考核
-INFO     poium.page_objects:page_objects.py:380 click element: 选择答案
-INFO     poium.page_objects:page_objects.py:380 click element: 提交答案
